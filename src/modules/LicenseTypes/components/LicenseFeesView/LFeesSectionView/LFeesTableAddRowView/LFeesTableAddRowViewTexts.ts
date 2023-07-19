@@ -1,0 +1,11 @@
+const FEE_CODE_PLACEHOLDER = 'Choose a code';
+const FEE_DESCRIPTION_PLACEHOLDER = 'Fee description';
+const FEE_AMOUNT_PLACEHOLDER = 'Enter a value';
+const ADD_FEE_BUTTON_TEXT = 'Add';
+
+export default {
+  FEE_CODE_PLACEHOLDER,
+  FEE_DESCRIPTION_PLACEHOLDER,
+  FEE_AMOUNT_PLACEHOLDER,
+  ADD_FEE_BUTTON_TEXT,
+};

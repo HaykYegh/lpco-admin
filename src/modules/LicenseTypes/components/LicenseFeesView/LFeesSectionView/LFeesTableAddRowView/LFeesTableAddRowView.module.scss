@@ -1,0 +1,30 @@
+.add_but_content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  i {
+    margin-left: 0 !important;
+  }
+}
+
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.attachment_cell {
+  flex: 1
+}
+
+.attachment_big_cell {
+  flex: 3;
+  div {
+    gap: 0
+  }
+}
+
+.att_add_row {
+  height: 84px;
+}

@@ -1,0 +1,30 @@
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.att_row_cell {
+  flex: 1
+}
+
+.att_row_big_cell {
+  flex: 3;
+  div {
+    gap: 0;
+  }
+}
+
+.att_row {
+  height: 48px;
+  transition: height 0.25s ease-in;
+
+  &_with_err {
+    height: 80px;
+  }
+}
+
+.att_none_content {
+  display: none;
+}

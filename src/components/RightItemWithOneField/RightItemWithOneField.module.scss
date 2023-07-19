@@ -1,0 +1,14 @@
+.section_row_iwof {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  & > div {
+    flex: 1;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    flex: 1;
+  }
+}

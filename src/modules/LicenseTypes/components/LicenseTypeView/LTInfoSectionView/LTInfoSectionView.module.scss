@@ -1,0 +1,29 @@
+@import '../../../../../../node_modules/@wf/components/dist/styles/functions';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  div:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.content_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 29px;
+}
+
+.row_item {
+  flex: 1;
+  label {
+    color: var(colorName(typography,light));
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+    color: var(colorName(typography,dark));
+    margin: 16px 0 0;
+  }
+}

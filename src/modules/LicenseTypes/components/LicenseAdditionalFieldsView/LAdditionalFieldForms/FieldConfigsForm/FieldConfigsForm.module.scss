@@ -1,0 +1,9 @@
+.section_row_item {
+  & > div:last-of-type {
+    flex: 1;
+  }
+}
+
+.body_content {
+  margin-top: 24px;
+}

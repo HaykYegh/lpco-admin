@@ -1,0 +1,9 @@
+@import '~@wf/components/dist/styles/functions';
+
+.with_link {
+  color: var(colorName(success, -10));
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}

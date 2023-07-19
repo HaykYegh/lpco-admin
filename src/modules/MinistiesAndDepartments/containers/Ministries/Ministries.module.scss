@@ -1,0 +1,65 @@
+@import '../../../../../node_modules/@wf/components/dist/styles/functions';
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.table_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.link_content {
+  display: flex;
+  float: right;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 167px;
+  height: 28px;
+  color: var(colorName(success));
+  background-color: var(colorName(success, 50));
+  border-radius: 2px;
+  span {
+    margin-right: 9px;
+  }
+}
+
+.specific_th {
+  & > div {
+    padding-right: 0 !important;
+  }
+
+  .specific_th_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 0;
+
+    & > span:first-child {
+      margin-right: 30px;
+    }
+  }
+}
+
+.specific_tb {
+  & > div {
+    padding-right: 0 !important;
+  }
+
+  .specific_tb_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 0;
+
+    & > label:first-child {
+      margin-right: 52px;
+    }
+  }
+}
+

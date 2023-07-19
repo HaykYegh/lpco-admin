@@ -1,0 +1,9 @@
+.lf_section_row_item {
+  & > div:last-of-type, div {
+    flex: 1;
+  }
+
+  &_last {
+    gap: 15px;
+  }
+}

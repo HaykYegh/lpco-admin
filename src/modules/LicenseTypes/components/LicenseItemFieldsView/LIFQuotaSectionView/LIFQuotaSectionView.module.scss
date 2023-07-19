@@ -1,0 +1,16 @@
+.tax_content {
+  display: flex;
+  flex: 1 !important;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  & > div {
+    width: unset;
+  }
+}
+
+.lifquota_section_row_item {
+  & > div:last-of-type, div {
+    flex: 1;
+  }
+}

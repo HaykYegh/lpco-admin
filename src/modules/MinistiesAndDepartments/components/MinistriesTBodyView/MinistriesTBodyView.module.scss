@@ -1,0 +1,52 @@
+@import '~@wf/components/dist/styles/functions';
+
+.last_tItem > div {
+  padding-right: 0 !important;
+
+  button {
+    float: right;
+    min-width: 172px;
+  }
+}
+
+.dep_cell {
+  flex: 1
+}
+
+.dep_big_cell {
+  flex: 2
+}
+
+.with_link {
+  color: var(colorName(success, -10));
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}
+
+.specific_tb {
+  & > div {
+    padding-right: 0 !important;
+  }
+
+  .specific_tb_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 0;
+
+    & > label:first-child {
+      margin-right: 52px;
+    }
+  }
+}
+
+.dep_content {
+  overflow: hidden;
+  height: 0;
+
+  &_opened {
+    height: auto;
+  }
+}

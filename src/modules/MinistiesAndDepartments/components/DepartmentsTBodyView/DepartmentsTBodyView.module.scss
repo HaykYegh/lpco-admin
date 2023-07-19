@@ -1,0 +1,24 @@
+.specific_tb {
+  & > div {
+    padding-right: 0 !important;
+  }
+
+  .specific_tb_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 0;
+
+    & > label:first-child {
+      margin-right: 52px;
+    }
+  }
+}
+
+.dep_cell {
+  flex: 1
+}
+
+.dep_big_cell {
+  flex: 2
+}

@@ -1,0 +1,55 @@
+@import '~@wf/components/dist/styles/functions';
+
+.separator {
+  border-right: 2px dashed var(colorName(background,80));
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .field {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    max-width: 322px;
+    border: 1px solid var(colorName(background,80));
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 16px;
+    border-radius: 6px;
+    margin: 0 10px;
+
+    &_content {
+      line-height: 20px;
+      .primary_text {
+        color: var(colorName(typography, dark));
+      }
+      .secondary_text {
+        color: var(colorName(typography, light));
+      }
+    }
+  }
+}
+
+.separator_field {
+  width: 100%;
+  border: 1px solid var(colorName(background,80));
+}
+
+
+.popover_content {
+  display: flex;
+  flex-direction: column;
+  width: 186px;
+  max-height: 200px;
+  & > button {
+    justify-content: left;
+  }
+}
+
+.popover_content_small {
+  width: 113px;
+}

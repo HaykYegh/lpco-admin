@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+
+  .configs_content {
+    display: flex;
+    gap: 15px;
+  }
+
+  .rows_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+

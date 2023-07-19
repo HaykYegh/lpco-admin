@@ -1,0 +1,14 @@
+@import '~@wf/components/dist/styles/functions';
+
+.section_header_content {
+  display: flex;
+  gap: 12px;
+
+  .primary_text {
+    color: var(colorName(typography, 'dark'));
+  }
+
+  .secondary_text {
+    color: var(colorName(typography, 'light'));
+  }
+}

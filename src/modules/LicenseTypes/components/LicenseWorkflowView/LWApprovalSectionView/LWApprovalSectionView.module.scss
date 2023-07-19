@@ -1,0 +1,52 @@
+@import '~@wf/components/dist/styles/functions';
+
+.controller_cell {
+  & > div {
+    overflow: unset !important;
+  }
+}
+
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.add_but_content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  i {
+    margin-left: 0 !important;
+  }
+}
+
+.approval_cell {
+  flex: 1;
+}
+
+.approval_big_cell {
+  flex: 3;
+}
+
+.approval_add_row {
+  height: 84px;
+}
+
+.approval_row {
+  height: 48px;
+  transition: height 0.25s ease-in;
+
+  &_with_err {
+    height: 80px;
+  }
+}
+
+.approval_none_content {
+  display: none;
+}
+
+.approvals_errors {
+  color: var(colorName(error));
+}

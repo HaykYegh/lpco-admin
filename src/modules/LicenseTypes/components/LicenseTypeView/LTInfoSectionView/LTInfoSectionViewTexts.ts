@@ -1,0 +1,17 @@
+const TITLE_TEXT = 'License Type Information';
+const LICENSE_TYPE_CODE_TEXT = 'License Type Code';
+const LICENSE_TYPE_NAME_TEXT = 'License Type Name';
+const LICENSE_TYPE_NAME_IN_NATIONAL_LANGUAGE_TEXT = 'License Type Name in NL';
+const LICENSE_TYPE_NATURE_TEXT = 'Nature of License';
+const MINISTRY_CODE_TEXT = 'Agency Owner Code';
+const DEPARTMENT_CODE_TEXT = 'Department Owner Code';
+
+export default {
+  TITLE_TEXT,
+  LICENSE_TYPE_CODE_TEXT,
+  LICENSE_TYPE_NAME_TEXT,
+  LICENSE_TYPE_NAME_IN_NATIONAL_LANGUAGE_TEXT,
+  LICENSE_TYPE_NATURE_TEXT,
+  MINISTRY_CODE_TEXT,
+  DEPARTMENT_CODE_TEXT,
+};

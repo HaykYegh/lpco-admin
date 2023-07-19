@@ -1,0 +1,44 @@
+@import '../../../../../node_modules/@wf/components/dist/styles/functions';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container_info {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px 24px 24px;
+  border-radius: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  div:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.content_row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+
+.row_item {
+  flex: 1;
+  font-size: 14px;
+  label {
+    color: var(colorName(typography,light));
+  }
+  p {
+    color: var(colorName(typography,dark));
+    margin: 8px 0 0;
+  }
+}
+

@@ -1,0 +1,5 @@
+.lpconf_section_row_item {
+  & > div:last-of-type, div {
+    flex: 1;
+  }
+}

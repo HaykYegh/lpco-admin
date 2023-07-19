@@ -1,0 +1,12 @@
+.configuration_content {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section_row_item {
+  & > div:last-of-type, div {
+    flex: 1;
+  }
+}

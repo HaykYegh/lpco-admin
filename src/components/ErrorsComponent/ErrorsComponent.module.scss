@@ -1,0 +1,5 @@
+@import '~@wf/components/dist/styles/functions';
+
+.errors_content {
+  color: var(colorName(error));
+}

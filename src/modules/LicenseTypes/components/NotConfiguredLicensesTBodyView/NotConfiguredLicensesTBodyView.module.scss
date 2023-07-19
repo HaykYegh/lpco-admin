@@ -1,0 +1,17 @@
+@import '~@wf/components/dist/styles/functions';
+
+.last_item > div {
+  padding: 0 !important;
+  text-align: right;
+  a {
+    text-decoration: unset;
+  }
+}
+
+.first_item {
+  color: var(colorName(success, -10));
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}

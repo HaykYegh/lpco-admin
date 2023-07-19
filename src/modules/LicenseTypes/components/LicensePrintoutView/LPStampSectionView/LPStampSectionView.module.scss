@@ -1,0 +1,24 @@
+.upload_content {
+  display: flex;
+  flex-direction: column;
+
+  & > input {
+    visibility: hidden;
+    height: 0;
+  }
+
+  & > div {
+    width: 100%;
+
+    & > div {
+      width: 100% !important;
+    }
+  }
+
+  .uploadViewMode {
+    div:nth-of-type(2) {
+      display: none;
+    }
+  }
+}
+

@@ -1,0 +1,55 @@
+@import '~@wf/components/dist/styles/functions';
+
+.columns_content {
+  display: flex;
+  flex: 1;
+}
+
+.row {
+  height: 84px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 14px 0 14px;
+  display: flex;
+}
+
+.row_configs{
+  display: flex;
+  width: 94px;
+  height: 100%;
+  border-right: 1px solid var(colorName(background,80));
+  padding: 0 17px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row_configs_wsp {
+  border-right: unset;
+}
+
+.row_configs_right {
+  display: flex;
+  width: 64px;
+  height: 100%;
+  border-left: 1px solid var(colorName(background,80));
+  justify-content: center;
+  align-items: center;
+}
+
+.row_configs_right_wsp {
+  border-left: unset;
+}
+
+.popover_content {
+  display: flex;
+  flex-direction: column;
+  width: 186px;
+  max-height: 200px;
+  & > button {
+    justify-content: left;
+  }
+}
+
+.columns_setter {
+  gap: 0;
+}
